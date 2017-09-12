@@ -1,0 +1,60 @@
+                    /**
+ First External CSS Stylesheet
+ **/
+                    /*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+                    
+                    h1 {
+                        padding: 20px;
+                        margin: 0;
+                        width: 200px;
+                        margin-bottom: 20px;
+                        font-size: 28px;
+                        background-color: #ff944d;
+                        text-align: left;
+                        color: white;
+                    }
+                    
+                    #instructions {
+                        font-size: 18px;
+                        width: 400px;
+                        height: 500 px;
+                        background-color: #ffebcc;
+                    }
+                    
+                    p {
+                        color: green;
+                    }
+                    
+                    #game-pick {
+                        font-size: 30px;
+                        width: 200px;
+                        height: 100px;
+                        background-color: #00cc66;
+                    }
+                    
+                    .Win-Loss-Stats {
+                        font-size: 18px;
+                        width: 200px;
+                        height: 100px;
+                        background-color: #00ffff;
+                    }
+                    
+                    #total-score-msg {
+                        font-size: 18px;
+                        width: 150px;
+                        height: 25px;
+                        background-color: #009999;
+                        border: 20px;
+                    }
+                    
+                    #total-score {
+                        font-size: 18px;
+                        width: 200px;
+                        height: 100px;
+                        color: white;
+                        background-color: #009999;
+                    }
