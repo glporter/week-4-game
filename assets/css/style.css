@@ -20,8 +20,8 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
                     
                     #instructions {
                         font-size: 18px;
-                        width: 400px;
-                        height: 500 px;
+                        width: 500px;
+                        height: 100 px;
                         background-color: #ffebcc;
                     }
                     
@@ -29,11 +29,20 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
                         color: green;
                     }
                     
+                    .Crystal-Container {
+                        display: flex;
+                    }
+                    
+                    .Stats-Container {
+                        display: flex;
+                    }
+                    
                     #game-pick {
                         font-size: 30px;
                         width: 200px;
                         height: 100px;
                         background-color: #00cc66;
+                        display: flex;
                     }
                     
                     .Win-Loss-Stats {
@@ -43,16 +52,24 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
                         background-color: #00ffff;
                     }
                     
+                    .wins {
+                        float: left;
+                    }
+                    
+                    .losses {
+                        float: left;
+                    }
+                    
                     #total-score-msg {
-                        font-size: 18px;
-                        width: 150px;
-                        height: 25px;
+                        font-size: 20px;
+                        width: 200px;
+                        height: 75px;
                         background-color: #009999;
                         border: 20px;
                     }
                     
                     #total-score {
-                        font-size: 18px;
+                        font-size: 40px;
                         width: 200px;
                         height: 100px;
                         color: white;

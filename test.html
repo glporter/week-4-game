@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+
+    <script LANGUAGE="JavaScript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+    <p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+
+    <button id="crystal-1">Click me</button> $("#crystal-1").on("click", function() { myFunction(); alert("Ive been clicked"); //get current players total });
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+    </script>
+
+</body>
+
+</html>
